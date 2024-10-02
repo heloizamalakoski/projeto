@@ -1,0 +1,15 @@
+programa
+{
+     funcao inicio()
+Função para determinar se um ano é bissexto
+def eh_bissexto(ano):
+    return (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0)
+
+Entrada do usuário
+ano = int(input("Digite um ano: "))
+
+Verificação e exibição do resultado
+if eh_bissexto(ano):
+    print(f"O ano {ano} é bissexto.")
+else:
+    print(f"O ano {ano} não é bissexto.")}
