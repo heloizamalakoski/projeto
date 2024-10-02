@@ -1,13 +1,18 @@
-programa
+Programa
 {
-	funcao inicio()
-	{
-		inteiro numero
+    função início()
+    {
+        // Declarar variáveis
+        inteiro numero, dobro
 
-Calcule o dobro do numero
-   dobro do numero = numero * 2
-  
-escreva o resultado 
-("o dobro de" numero "é" dobro)
+        // Solicitar ao usuário a entrada de um número inteiro
+        escreva("Digite um número inteiro: ")
+        leia(numero)
+
+        // Calcular o dobro do número
+        dobro = numero * 2
+
+        // Exibir o resultado
+        escreva("O dobro de ", numero, " é ", dobro)
+    }
 }
-      
