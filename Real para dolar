@@ -1,0 +1,15 @@
+função inicio()
+    escreva("Informe a cotação do dólar de hoje: ")
+    cotacao <- leia()
+
+    escreva("Informe o valor em reais que deseja converter: ")
+    valorReais <- leia()
+
+    valorDolares <- converterParaDolares(valorReais, cotacao)
+
+    escreva("O valor em dólares é: ", valorDolares)
+fimfunção
+
+função converterParaDolares(reais, cotacao)
+    retorno reais / cotacao
+fimfunção
