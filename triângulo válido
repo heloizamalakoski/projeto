@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    inteiro valor1, valor2, valor3
+    leia (valor1, valor2, valor3)
+    inteiro soma= valor1+valor2
+    se (soma>valor3)
+    escreva ("válido")
+    senao
+    escreva ("inválido")
+  }
+}
