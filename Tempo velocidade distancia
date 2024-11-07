@@ -1,0 +1,6 @@
+programa{
+   funcao inicio(){
+    inteiro tempo, distancia, velocidade
+      leia (distancia, velocidade)
+      calcule //Tempo=Distancia/Velocidade
+     escreva: (Tempo)
