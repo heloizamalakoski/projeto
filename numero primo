@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    inteiro numero 
+    leia (numero)
+    se ((numero > 1) e (numero % 1 == numero) ou ( numero % numero == 1))
+    escreva ('numero primo')
+    {
+   senao 
+    }
+    escreva ('nao primo') 
+  }
+}
